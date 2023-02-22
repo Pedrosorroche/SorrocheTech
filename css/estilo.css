@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 110px;
+}
+
+.bg-color{
+    background-image: linear-gradient(-90deg, #54afe6, #03466e);
+     
+}
+.navbar-nav{
+    
+    
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: 20px;
+    margin: 3px;
+    font-weight: 600;
+}
+
+.navbar-brand{
+    transition: transform .2s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.img-carousel{
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.img-carousel-1{
+    height: 450px;
+    object-fit: cover;
+    object-position: 0 70%;
+    filter: brightness(70%);
+}
+
+.font-carousel{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    text-shadow: -4px 5px 8px #000;
+    
+}
