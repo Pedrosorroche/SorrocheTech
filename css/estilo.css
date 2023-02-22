@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 *{
     margin: 0;
@@ -6,7 +8,7 @@
 }
 
 .navbar{
-    height: 110px;
+    
 }
 
 .bg-color{
@@ -34,13 +36,13 @@
 }
 
 .img-carousel{
-    height: 450px;
+    height: 500px;
     object-fit: cover;
     filter: brightness(70%);
 }
 
 .img-carousel-1{
-    height: 450px;
+    height: 500px;
     object-fit: cover;
     object-position: 0 70%;
     filter: brightness(70%);
@@ -51,4 +53,53 @@
     font-size: 60px;
     text-shadow: -4px 5px 8px #000;
     
+}
+
+.titulos{
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+}
+.sub-titulos{
+    font-family: 'Rubik', sans-serif;
+}
+
+.foto-perfil{
+    height: 14em;
+    width: 13em;
+    border-radius: 20%;
+}
+
+.fundador{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    max-width: 20em;
+    border-radius: 15px;
+    
+}
+
+.texto-apre{
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.textos{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+
+.text-card li{
+    list-style-type: none;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.text-card{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
 }
