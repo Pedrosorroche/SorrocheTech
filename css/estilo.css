@@ -22,9 +22,9 @@
 
 .nav-link{
     color: #fff !important;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     margin: 3px;
-    font-weight: 600;
 }
 
 .navbar-brand{
@@ -56,11 +56,11 @@
 }
 
 .titulos{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 45px;
 }
 .sub-titulos{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .foto-perfil{
