@@ -57,6 +57,9 @@
     padding-top: 70px;
 }
 .frase{
+ border-style: none;
+}
+.frase p{
     font-family: 'DM Sans', sans-serif;
     text-align: center;
     font-size: 28px;
@@ -73,7 +76,6 @@
 .sub-titulos{
     font-family: 'Inter', sans-serif;
 }
-
 .foto-perfil{
     height: 14em;
     width: 14em;
